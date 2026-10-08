@@ -61,6 +61,8 @@ A null or negative result is a **valid** research result and will be reported ho
 - Price chart (log scale)
 - Daily log-return bar chart
 - Summary statistics (observations, date range, volatility, cumulative return)
+  <img width="1440" height="837" alt="image" src="https://github.com/user-attachments/assets/df90dda1-1f1a-42df-a38a-4586beace92d" />
+
 
 ### 📈 Time-Domain Tab
 The conventional baseline against which spectral features are compared:
@@ -68,6 +70,8 @@ The conventional baseline against which spectral features are compared:
 - Rolling annualized volatility (5, 20, 60 days)
 - Rolling lag-1 autocorrelation
 - Rolling skewness and kurtosis
+<img width="1440" height="773" alt="image" src="https://github.com/user-attachments/assets/0fcf8ed6-ed4d-4289-8630-ac5962f3a364" />
+
 
 ### 🌊 Spectral Tab
 The novel contribution:
@@ -77,6 +81,9 @@ The novel contribution:
 - Rolling dominant period
 - **Spectrogram heatmap** showing how frequency content evolves over time
 
+<img width="1437" height="851" alt="image" src="https://github.com/user-attachments/assets/da250a86-8ff4-4b86-bb34-36814b78ef97" />
+
+
 ### 🔀 Regimes Tab
 Rule-based regime classification using only trailing information:
 - **Calm-Bull** (low vol, positive trend)
@@ -84,6 +91,9 @@ Rule-based regime classification using only trailing information:
 - **Normal-Bull** / **Normal-Bear**
 - **Stressed-Bull** / **Stressed-Bear**
 - Mean spectral features shown per regime
+
+<img width="1440" height="797" alt="image" src="https://github.com/user-attachments/assets/a91a9305-6d74-4723-8a5b-8502eec5a54e" />
+
 
 ### 🎯 Prediction & Backtest Tab
 Walk-forward machine learning with strict no-look-ahead rules:
@@ -94,6 +104,11 @@ Walk-forward machine learning with strict no-look-ahead rules:
 - Backtest: long-if-P(up) > 0.5, else cash
 - Transaction-cost sensitivity (0–50 bps)
 - Feature importance ranking
+
+<img width="1429" height="832" alt="image" src="https://github.com/user-attachments/assets/3c6dc3f3-ebc6-46d7-9dc7-06dc1bc51996" />
+
+<img width="1440" height="760" alt="image" src="https://github.com/user-attachments/assets/fffa23f8-ad52-4ec2-89a6-113838b2c50f" />
+
 
 ---
 
@@ -121,9 +136,9 @@ Walk-forward machine learning with strict no-look-ahead rules:
 
 ### Returns
 Log returns are used throughout:
-$
-r_t = \log\left(\frac{P_t}{P_{t-1}}\right)
-$
+
+<img width="211" height="82" alt="image" src="https://github.com/user-attachments/assets/22abf1a5-bf17-4a12-a0c4-0b001f725963" />
+
 
 ### Time-Domain Features (Baseline)
 
