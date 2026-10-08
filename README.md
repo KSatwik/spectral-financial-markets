@@ -57,14 +57,14 @@ A null or negative result is a **valid** research result and will be reported ho
 
 ## Features
 
-### 📊 Overview Tab
+### Overview Tab
 - Price chart (log scale)
 - Daily log-return bar chart
 - Summary statistics (observations, date range, volatility, cumulative return)
   <img width="1440" height="837" alt="image" src="https://github.com/user-attachments/assets/df90dda1-1f1a-42df-a38a-4586beace92d" />
 
 
-### 📈 Time-Domain Tab
+### Time-Domain Tab
 The conventional baseline against which spectral features are compared:
 - Rolling momentum (5, 20, 60 days)
 - Rolling annualized volatility (5, 20, 60 days)
@@ -73,7 +73,7 @@ The conventional baseline against which spectral features are compared:
 <img width="1440" height="773" alt="image" src="https://github.com/user-attachments/assets/0fcf8ed6-ed4d-4289-8630-ac5962f3a364" />
 
 
-### 🌊 Spectral Tab
+### Spectral Tab
 Frequency-Domain Features:
 - Rolling spectral entropy
 - Rolling spectral centroid
@@ -84,7 +84,7 @@ Frequency-Domain Features:
 <img width="1437" height="851" alt="image" src="https://github.com/user-attachments/assets/da250a86-8ff4-4b86-bb34-36814b78ef97" />
 
 
-### 🔀 Regimes Tab
+### Regimes Tab
 Rule-based regime classification using only trailing information:
 - **Calm-Bull** (low vol, positive trend)
 - **Calm-Bear** (low vol, negative trend)
@@ -95,7 +95,7 @@ Rule-based regime classification using only trailing information:
 <img width="1440" height="797" alt="image" src="https://github.com/user-attachments/assets/a91a9305-6d74-4723-8a5b-8502eec5a54e" />
 
 
-### 🎯 Prediction & Backtest Tab
+### Prediction & Backtest Tab
 Walk-forward machine learning with strict no-look-ahead rules:
 - Three feature sets compared: time-domain only, spectral only, combined
 - Model choice: Random Forest or Logistic Regression
