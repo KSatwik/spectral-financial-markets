@@ -32,7 +32,7 @@ a rolling window, and immediately see:
 - Spectral features over time
 - Market regimes overlaid on price
 - Walk-forward predictive performance
-- Backtest results with realistic transaction costs
+- Backtest results under transaction cost assumptions
 
 **This is a research prototype, not a trading system.** Negative results
 are considered valid and informative outcomes.
@@ -74,7 +74,7 @@ The conventional baseline against which spectral features are compared:
 
 
 ### 🌊 Spectral Tab
-The novel contribution:
+Frequency-Domain Features:
 - Rolling spectral entropy
 - Rolling spectral centroid
 - Low vs high-frequency energy share
